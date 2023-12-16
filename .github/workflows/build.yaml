@@ -55,7 +55,7 @@ jobs:
           POETRY_PYPI_TOKEN_TEST_PYPI: ${{ secrets.TEST_PYPI_API_TOKEN }}
         run: |
           version=$(./scripts/version dev)
-          echo "::set-output name=version::$version"
+          echo "version=$version" >> $GITHUB_OUTPUT
           poetry version $version
           poetry config repositories.test-pypi https://test.pypi.org/legacy/
           poetry publish --build -r test-pypi
