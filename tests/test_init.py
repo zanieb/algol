@@ -1,2 +1,2 @@
 def test_import():
-    import algol
+    import algol  # noqa: F401
