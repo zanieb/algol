@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "algol"
 version = "0.0.0"
-description = "A library for managing daemon proceses and background services."
+description = "A library for managing daemon processes and background services."
 authors = ["Zanie <contact@zanie.dev>"]
 readme = "README.md"
 license = "MIT"
