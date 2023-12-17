@@ -1,6 +1,6 @@
 # algol
 
-A Python library for managing daemon proceses and background services.
+A Python library for managing daemon processes and background services.
 
 ## Installation
 
